@@ -21,4 +21,5 @@ from app_platform_testing import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('1/', views.hello),
+    path('', views.default_page ),
 ]
